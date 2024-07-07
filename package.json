@@ -8,5 +8,8 @@
   },
   "author": "Ajay Upadhyay",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
 }
