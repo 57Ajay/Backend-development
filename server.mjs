@@ -1,7 +1,7 @@
 import logEvent from "./logEvent.mjs";
 
 import EventEmitter from 'events';
-
+console.log(logEvent);
 // initialize a object; 
 class MyEmitter extends EventEmitter{};
  

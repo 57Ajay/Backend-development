@@ -2,10 +2,10 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "nodejs",
-  "main": "index.mjs",
+  "main": "server.mjs",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "author": "Ajay Upadhyay",
   "license": "ISC",
