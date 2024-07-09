@@ -1,7 +1,19 @@
+// create a mongoose schema and model for sub-todo
 import mongoose from "mongoose";
 
-const userSchema = new mongoose.Schema({
+const subTodoSchema = new mongoose.Schema({
+    content: {
+        type: String,
+        required: true,
+    },
+    complete: {
+        type: Boolean,
+        default: false,
+    },
+    createdBy:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User",
+    }
+},{ timestamps: true});
 
-});
-
-export default User = mongoose.model("User", userSchema);
+export const SubTodo = mongoose.model("SubTodo", subTodoSchema);
