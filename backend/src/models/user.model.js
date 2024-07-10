@@ -30,12 +30,12 @@ const userSchema = new mongoose.Schema({
         index: true
     },
     avatar: {
-        type: String, //cloudenary url
+        type: String, //cloudinary url
         trim: true,
         required: true
     },
     coverImage: {
-        type: String, //cloudenary url
+        type: String, //cloudinary url
         trim: true,
         required: false
     },
