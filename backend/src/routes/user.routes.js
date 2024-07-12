@@ -17,7 +17,6 @@ userRouter.route("/login").post(loginUser);
 
 userRouter.route("/logout").post(verify, logoutUser);
 userRouter.route("/refresh-token").post(refreshAccessToken);
-userRouter.route("/refresh-token").post(refreshAccessToken);
 userRouter.route("/change-password").post(verify, changeCurrentPassword);
 userRouter.route("/current-user").get(verify, getCurrentUser);
 userRouter.route("/update-account-details").patch(verify, updateAccountDetails);
